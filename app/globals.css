@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8f7f4;
+  --surface: #ffffff;
+  --primary: #c4653a;
+  --primary-foregound: #ffffff;
+  --accent: #1dac88;
+  --accent-foregound: #1a1d2e;
+  --muted: #f0ede8;
+  --muted-foregound: #1a1d2e;
+  --foreground: #1a1d2e;
+  --border: #e2dfd8;
+  --destructive: #dc2626;
+  --ring: #c4653a;
+}
+
+.dark {
+  --background: #1a1d2e;
+  --surface: #242838;
+  --primary: #e07a52;
+  --primary-foreground: #ffffff;
+  --accent: #7bb5a8;
+  --accent-foreground: #f8f7f4;
+  --muted: #2a2d3e;
+  --muted-foreground: #9b98a1;
+  --foreground: #e8e6e1;
+  --border: #363a4e;
+  --destructive: #ef4444;
+  --ring: #e07a52;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
   --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-ring: var(--ring);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
