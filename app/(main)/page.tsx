@@ -38,9 +38,9 @@ export default function Home() {
       </div>
       {/* card example */}
       <div className="bg-surface border border-border rounded-1g p-6 space-y-2">
-        <h2 className="text-xl font-semibold">A Poem Card</h2>
-        <p className="text-muted-foreground">By Some Poet . 3 hours Ago</p>
-        <p>Roses are red, violets are blue.....</p>
+        <h2 className="text-xl font-semibold">An Artwork Card</h2>
+        <p className="text-muted-foreground">By Some Artist . 3 hours Ago</p>
+        <p>A beautiful painting of the Kurdish mountains.....</p>
         <button className="bg-primary text-primary-foreground px-4 py-2 rounded cursor-pointer">
           Like
         </button>

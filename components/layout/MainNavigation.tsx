@@ -25,7 +25,12 @@ export function MainNavigation() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <Link href="/poems">Poems</Link>
+            <Link href="/artworks">Artworks</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+            <Link href="/bookmarks">Bookmarks</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>

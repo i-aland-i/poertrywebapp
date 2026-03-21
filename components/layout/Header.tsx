@@ -13,9 +13,10 @@ import { MainNavigation } from "./MainNavigation";
 
 const mobileLinks = [
   { title: "Home", href: "/" },
-  { title: "Bookmarks", href: "/bookmarks" },
   { title: "Explore", href: "/explore" },
-  { title: "Create", href: "/poems/create" },
+  { title: "Artworks", href: "/artworks" },
+  { title: "Bookmarks", href: "/bookmarks" },
+  { title: "Settings", href: "/settings" },
 ];
 
 export function Header() {
